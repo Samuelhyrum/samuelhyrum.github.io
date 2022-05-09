@@ -5,41 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
-    <style>
-        h1{
-            font-family: 'Times New Roman', Times, serif;
-        }
-        p{
-            font-family: 'Times New Roman', Times, serif;
-        }
-        body{
-            background-color: #E0EEC6;
-        }
-        .Lista-Style{
-            color: maroon;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <div class="Seções">
+    <!-- Seção 1 -->
+
+    <h1>Indice</h4> 
+    <ul class="Lista-Style">
+        <li><a href="#MinhaFoto">Minha Foto</a></li>
+        <li><a href="#Inicio">Inicio </a></li>
+        <li><a href="#Quem sou eu?"> Quem sou eu?</a></li>
+        <li><a href="#Principais Qualidades">Principais Qualidades </a></li>
+        <li><a href="#Coisas de que gosto">Coisas de que gosto</a></li>
+        <hr>
+        
+    </ul>
+
+    <!-- Seção 2 -->
+
     <h1 id="Inicio" >Samuel Hyrum Machado Pinheiro</h1>
 
-    <img src="Perfil.jpeg" alt="Minha foto de Apresentação" id="MinhaFoto" width="200px"> <br>
+    <img class="picture" src="Perfil.jpeg" alt="Minha foto de Apresentação" id="MinhaFoto" width="200px"> <br>
     <h2 id="Quem sou eu?" >Quem sou eu?</h2>
 
     <p> Olá Pessoal me chamo Samuel Hyrum tenho 21 anos de idade e 
         sou um estudante de desenvolvimento Web na Trybe! <br>
    <strong><em>Sou natural do Brasil mais precisamente de Fortaleza-CE, um Nordestino!</em> </strong> </p>
 
+   <hr>
+
+   <!-- Seção 3 -->
+
+
     <h3 id="Principais Qualidades" >Minhas Principais Qualidades:</h3>
     <ul> 
         <li><a href="Perfil.jpeg"><strong>Sou muito Determinado</strong></a></li>
         <li>Dedicado</li>
         <li>Responsavel</li>
-        <li><em>Integro</em></li>
+        <li class="Integro" ><em>Integro</em></li>
         <li><em> Resiliente</em></li>
         <li>Feliz</li>
     </ul>
+<hr>
+
+<!-- Seção 4 -->
+
 
     <h3 id="Coisas de que gosto" >Coisas de que gosto:</h3>
     <ul class="Lista-Style">
@@ -48,17 +60,10 @@
         <li><a href="https://www.leagueoflegends.com/pt-br/" target="_blank">League of Legends</a></li>
         <li><a href="https://www.betrybe.com/" target="_blank">Estudar</a></li>
     </ul>
-
-    <h4>Indice</h4> 
-    <ul class="Lista-Style">
-        <li><a href="#Inicio">Inicio </a></li>
-        <li><a href="#Quem sou eu?"> Quem sou eu?</a></li>
-        <li><a href="#Principais Qualidades">Principais Qualidades </a></li>
-        <li><a href="#Coisas de que gosto">Coisas de que gosto</a></li>
-        <li><a href="#MinhaFoto">Minha Foto</a></li>
-        
-    </ul>
-
+    <br>
     
+    <a class="button" href="https://www.betrybe.com/" target="_blank"> Faça sua inscrição</a>
+
+    </div>
 </body>
 </html>
